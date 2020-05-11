@@ -1,4 +1,3 @@
-from time import sleep
 from wox import Wox
 
 import pyperclip
@@ -8,7 +7,6 @@ from googletrans.constants import LANGUAGES
 
 class TranslatePlugin(Wox):
     def query(self, query):
-        sleep(0.25)
         result = self.translate(query)
         results = [{
             "Title": "Translate: {}".format(result),
@@ -36,9 +34,9 @@ class TranslatePlugin(Wox):
                 src = string[0]
 
         if (src != None and dest != None):
-            return trans.translate(query[6:], src, dest).text
+            return trans.translate(query[6:], src = src, dest = dest).text
         elif (src != None):
-            return trans.translate(query[3:], src).text
+            return trans.translate(query[3:], src = src).text
         else:
             return trans.translate(query).text
 

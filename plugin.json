@@ -3,9 +3,9 @@
     "Name":"Translate plugin",
     "Description":"Plugin that allow you to translate any words to any languages",
     "Author":"HanGerrel",
-    "Version":"0.1",
+    "Version":"0.2",
     "Language":"python",
-    "Website":"https://github.com/Wox-launche/Wox",
+    "Website":"https://github.com/HanGerrel/Wox.Plugin.Translate",
     "IcoPath":"Images\\app.png",
     "ExecuteFileName":"main.py"
 }
