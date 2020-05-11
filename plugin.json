@@ -1,4 +1,5 @@
 {
+    "ID": "EA9D6Z54M2USRPZ1ONWVC64ADCJLEJOO",
     "ActionKeyword":"tr",
     "Name":"Translate plugin",
     "Description":"Plugin that allow you to translate any words to any languages",
@@ -6,6 +7,6 @@
     "Version":"0.2",
     "Language":"python",
     "Website":"https://github.com/HanGerrel/Wox.Plugin.Translate",
-    "IcoPath":"Images\\app.png",
+    "IcoPath":"app.png",
     "ExecuteFileName":"main.py"
 }
